@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,10 +8,19 @@
   <link rel="stylesheet" href="tarjetas.css">
   <script src="tarjetas.js" defer></script>
 </head>
+
 <body>
 
   <div class="top">
     <button class="btn" onclick="crearTarjetas()">Generar</button>
+    <div class="inputs">
+      <div>
+        <input type="number" id="txtDesde">
+      </div>
+      
+      <div>
+        <input type="number" id="txtHasta">
+    </div>
   </div>
 
   <div class="contenedor" id="divTarjetas">
@@ -20,4 +30,5 @@
   </div>
 
 </body>
+
 </html>
